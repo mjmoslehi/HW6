@@ -11,4 +11,9 @@ public class JdbcConnection {
 
     public JdbcConnection() throws SQLException {
     }
+
+    public Connection getConnection(){
+        return connection;
+    }
+
 }
