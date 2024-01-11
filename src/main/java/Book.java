@@ -11,6 +11,10 @@ public class Book {
         AuthorId = authorId;
     }
 
+    public Book (){
+
+    }
+
     public int getId() {
         return id;
     }
