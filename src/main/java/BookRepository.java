@@ -9,4 +9,8 @@ public class BookRepository {
     public Book land ( int bookId){
         return new Book();
     }
+
+    public void delete (Book book){
+
+    }
 }
